@@ -1,0 +1,221 @@
+body{
+  padding: 0px 0px;
+  margin: 0px 0px;
+  font-size: 16px;
+  font-family: "Ariel",sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#other{
+  background-image: url(rainbow.jfif);
+  background-size: cover;
+}
+#red{
+  background-image: url(red.jfif);
+  background-size: cover;
+}
+#blue{
+  background-image: url(blue.jpg);
+  background-size: cover;
+}
+#green{
+  background-image: url(green.webp);
+  background-size: cover;
+}
+#yellow{
+  background-image: url(yellow.avif);
+  background-size: cover;
+}
+#orange{
+  background-image: url(orange.jpg);
+  background-size: cover;
+}
+#indigo{
+  background-image: url(indigo.webp);
+  background-size: cover;
+}
+#purple{
+  background-image: url(purple.jpg);
+  background-size: cover;
+}
+.navbar {
+    list-style-type: none;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.navbar li {
+    float: right;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #FA87D4;
+}
+.navbar li:visited a {
+    background-color: #6F024B;
+}
+.table{
+  text-align: center;
+}
+#contactnav{
+  color: black;
+  font-weight: bold;
+}
+#homenav{
+  color: black;
+  font-weight: bold;
+}
+#otherH{
+  background-color: #AECAED;
+  text-align: center;
+  padding: 20px;
+}
+#redH{
+  background-color: #FDB7B7;
+  text-align: center;
+  padding: 20px;
+}
+#blueH{
+  background-color: #BDBDFD;
+  text-align: center;
+  padding: 20px;
+}
+#greenH{
+  background-color: #AFFCAF;
+  text-align: center;
+  padding: 20px;
+}
+#yellowH{
+  background-color: #F8F8AF;
+  text-align: center;
+  padding: 20px;
+}
+#orangeH{
+  background-color: #FBDDA5;
+  text-align: center;
+  padding: 20px;
+}
+#indigoH{
+  background-color: #DBAFFB;
+  text-align: center;
+  padding: 20px;
+}
+#purpleH{
+  background-color: #FAB4FA;
+  text-align: center;
+  padding: 20px;
+}
+section{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px 20px;
+  height: 700px;
+}
+h1{
+  font-size: 32px;
+  font-family: "Georgia", sans-serif;
+  text-align: center;
+}
+h2{
+  font-size: 28px;
+  font-family: "Georgia", sans-serif;
+}
+h3{
+  font-weight: bold;
+  font-size: 16px;
+}
+#slogan{
+  text-align: center;
+}
+.red{
+  color: #FF0000;
+  font-weight: bold;
+}
+.blue{
+  color: #0000FF;
+  font-weight: bold;
+}
+.green{
+  color: #008000;
+  font-weight: bold;
+}
+.yellow{
+  /* color: #FFFF00; */
+  color: #FFD100;
+  font-weight: bold;
+}
+.orange{
+  color: #FFA500;
+  font-weight: bold;
+}
+.indigo{
+  color: #4B0082;
+  font-weight: bold;
+}
+.purple{
+  color: #800080;
+  font-weight: bold;
+}
+.contact{
+  float: none;
+}
+img{
+  float: right;
+}
+table{
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+td{
+  padding: 4px;
+  width: 50px;
+}
+#secondrow{
+  padding-bottom: 10px;
+}
+input{
+  height: 25px;
+}
+textarea{
+  margin: 0px;
+}
+fieldset{
+  font-size: 32px;
+  font-family: "Georgia", sans-serif;
+  border-width: thick;
+  border-color: black;
+}
+hr{
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+.price-list {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+.price-list th, .price-list td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+.price-list th {
+            background-color: #AECAED;
+        }
+.price-list tr:hover {
+            background-color: #FA87D4;
+        }
